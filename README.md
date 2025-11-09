@@ -1,10 +1,10 @@
-🏨 Reducing Hotel Booking Cancellation Rate (City Hotel & Resort)
+🏨 **Reducing Hotel Booking Cancellation Rate (City Hotel & Resort)**
 
-📋 Project Overview
+📋 **Project Overview**
 
 This project aims to analyze and reduce hotel booking cancellations for a City Hotel and a Resort Hotel using data-driven insights. By exploring booking trends, customer behavior, and influential factors, the project identifies actionable strategies to minimize cancellations and improve hotel revenue management.
 
-🎯 Objectives
+🎯 **Objectives**
 
 Identify key factors contributing to high booking cancellation rates.
 
@@ -14,7 +14,7 @@ Build predictive models to forecast cancellations before they occur.
 
 Suggest data-backed recommendations to reduce future cancellations.
 
-📊 Dataset
+📊 **Dataset**
 
 Source: Hotel Booking Demand Dataset (Kaggle)
 
@@ -22,25 +22,17 @@ Records: ~119,000 bookings
 
 Features: 32 attributes including booking date, lead time, room type, deposit type, and customer demographics.
 
-
-
----
-
-⚙ Tools & Technologies
+⚙ **Tools & Technologies**
 
 Category	Tools/Technologies
 
-Data Processing	Python (Pandas, NumPy)
-Data Visualization	Matplotlib, Seaborn
-Machine Learning	Scikit-learn
-Notebook Environment	Jupyter Notebook
-Version Control	Git & GitHub
+Data Processing:	Python (Pandas, NumPy)
+Data Visualization:	Matplotlib, Seaborn
+Machine Learning:	Scikit-learn
+Notebook Environment:	Jupyter Notebook
+Version Control:	Git & GitHub
 
-
-
----
-
-🧠 Approach
+🧠 **Approach**
 
 1. Data Cleaning: Handle missing values, duplicates, and outliers.
 
@@ -59,38 +51,25 @@ Version Control	Git & GitHub
 
 6. Recommendations: Provide actionable insights to reduce cancellations.
 
+📈 **Key Insights**
 
+1. Longer lead times and no-deposit bookings have higher cancellation rates.
 
+2. City Hotels face more cancellations than Resort Hotels.
 
----
+3. Bookings made through Online Travel Agents (OTAs) tend to cancel more.
 
-📈 Key Insights
+4. Implementing non-refundable deposits and better communication strategies can reduce cancellations.
 
-Longer lead times and no-deposit bookings have higher cancellation rates.
-
-City Hotels face more cancellations than Resort Hotels.
-
-Bookings made through Online Travel Agents (OTAs) tend to cancel more.
-
-Implementing non-refundable deposits and better communication strategies can reduce cancellations.
-
-
-
----
-
-🧩 Results
+🧩 **Results**
 
 Model	Accuracy	ROC-AUC
 
-Logistic Regression	79%	0.81
-Random Forest	85%	0.89
-XGBoost	87%	0.91
+Logistic Regression:	79%	0.81
+Random Forest	85%: 0.89
+XGBoost:	87%	0.91
 
-
-
----
-
-💡 Recommendations
+💡 **Recommendations**
 
 Introduce incentives for early confirmations.
 
